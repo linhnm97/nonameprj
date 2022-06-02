@@ -94,7 +94,7 @@ function validate() {
   arr.push(person);
   console.log(arr);
   localStorage.setItem("user", JSON.stringify(arr));
-  window.location.href="./homepage.html";
+  window.location.href="./index.html";
 };
 
 console.log(localStorage.getItem("user"));
