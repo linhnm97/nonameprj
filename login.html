@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f8c483cce4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./signup.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./homepage.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="navigator">
+    <div id="logo">
+      <p>LOGO</p>
+    </div>
+    <div class="navigator-spec">
+      <div class="menu-icon">
+        <a href="#">ABOUT</a>
+      </div>
+      <div class="menu-icon">
+        <i class="fa fa-user"></i> 
+        <a href="#">TEAM</a>
+      </div>
+      <div class="menu-icon">
+        <i class="fa fa-th"></i>
+        <a href="#">WORK</a>
+      </div>
+      <div class="menu-icon">
+        <i class="fa fa-usd"></i>
+        <a href="#">PRICING</a>
+      </div>
+      <div class="menu-icon">
+        <i class="fa fa-envelope"></i>
+        <a href="#">CONTACT</a>
+      </div>
+      <div class="menu-icon" id="Account" >
+        <i class="fa fa-envelope"></i>
+        <a href="#">ACCOUNT</a>
+        <div class="dropdown-content">
+          <a href="./signup.html">Sign Up</a>
+          <a href="./login.html">Log In</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  <div id="sign-in">
+    <div class="left-body">
+      <h1>Login</h1>
+      <p>Already An Account ? <a href="./signup.html">Sign up</a></p>
+
+      <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>Danger!</strong> <span id="warn-sign"></span>
+      </div>
+
+      <form >
+       <div id="email" class="input-spec">
+        <input id="email1" type="email" placeholder="Email" spellcheck="false" required>
+       <span class="input-icon"><i class="fa-solid fa-envelope"></i></span>
+      </div> <br>
+      
+       <div id="password" class="input-spec">
+         <input id="password1" type="password" placeholder="Password" spellcheck="false" required>
+         <span class="input-icon" id ="data-password"><i class="fa-solid fa-eye"></i></span>
+       </div>
+   
+       <div id="btnSignup">
+         <a href="#" id="btn1">Log In</a>
+       </div>    
+      </form>
+    </div>
+     
+     <div class="right-body" style= "top: -65px";>
+       <div id="text-image">
+        <h1> Welcome to</h1>
+        <h1>my</h1>
+        <h1>Project !</h1>
+       </div>
+       <img src= "https://i.pinimg.com/564x/0f/e0/98/0fe098fc07db188a5705649832f07f1e.jpg" alt="https://i.pinimg.com/564x/0f/e0/98/0fe098fc07db188a5705649832f07f1e.jpg">
+     </div>
+  </div>
+  <div class="footer">
+    <div id="icon-footer">
+      <i class="fab fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-google-plus-g"></i>
+    </div>
+    <div id="relate-items">
+      <a href="#">About</a>
+      <a href="#">Need help</a>
+      <a href="#">Content Guide</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Advertising</a>
+      <a href="#">Jobs</a>
+    </div>
+    <div id="end">
+      <p><span style="color: rgb(71, 172, 197)">©</span> 2022 No Name Project.</p>
+    </div>
+  </div>
+
+ <script src ="./login.js"></script>
+
+</body>
+</html>

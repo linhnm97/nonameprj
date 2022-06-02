@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <style>
+  html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: grayScale(.5);
+      }
+      .swiper-slide>h1 {
+        color: rgb(221, 60, 60);
+      }
+      .content-text {
+        position: absolute;
+        background-color: rgb(199, 194, 194);
+        opacity: 0.7;
+        padding: 1.5em 2.5em;
+        width: 1050px;
+      }
+      .content-text:hover {
+        opacity: 1;
+      }
+      .swiper-button-next,.swiper-button-prev{
+        opacity: 0.5;
+        color: white;
+      }
+      .swiper-button-next:hover {
+        opacity: 1;
+      }
+      .swiper-button-prev:hover {
+        opacity: 1;
+      }
+
+
+  </style>
+</head>
+<body>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220113022056-05-new-maldives-resorts-2022.jpg" alt="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220113022056-05-new-maldives-resorts-2022.jpg">
+        <div class="content-text">
+          <h1>7 stunning new Maldives resorts to visit in 2022</h1>
+        <p> It's the definitive escape for celebrities, honeymooners and families, all intent on kicking back in a picture-perfect paradise.
+          Sitting serenely in the warm azure waters of the Indian Ocean, the Maldives guarantees the whitest of white sand beaches, pods of dolphins, dreamy sunsets and an unforgettable underwater world.</p>
+        </div>
+        </div>
+      <div class="swiper-slide">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190125171625-banana-island-15.jpg" alt="Banana Island: A slice of paradise off Doha coast">
+        <div class="content-text">
+          <h1>Banana Island: A slice of paradise off Doha coast</h1>
+        <p> Overwater villas, golden sands and beautiful turquoise water don't necessarily come to mind when envisioning a vacation in Doha.</p>
+        </div>
+        </div>
+      <div class="swiper-slide">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F191212182124-04-singapore-buildings.jpg" alt="Travel to Singapore during Covid-19: What you need to know before you go">
+        <div class="content-text">
+          <h1>Travel to Singapore during Covid-19: What you need to know before you go</h1>
+        <p> The quintessential modern Asian city, Singapore's glittering skyscrapers and waterside setting make it easy to love. Throw in some of the world's best street food, served in its ubiquitous hawker centers, and the lush rainforest of Bukit Timah Nature Reserve, and the city-state has more than enough to satisfy fascinated tourists.</p>
+        </div>
+        </div>
+      <div class="swiper-slide">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220425222534-tokyo-stock.jpg" alt="As international travel picks up, several popular destinations remain off limits to tourists">
+        <div class="content-text">
+          <h1>As international travel picks up, several popular destinations remain off limits to tourists</h1>
+        <p> Over the recent Easter break, social media feeds were filled with photos of happy travelers, many taking their first overseas trips since the start of the pandemic.</p>
+        </div>
+        </div>
+      <div class="swiper-slide">
+        <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1349,c_fill,g_auto,h_759,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220303081037-stonehenge-file-restricted.jpg" alt="Stonehenge was an ancient time-keeping system, archaeologist says">
+        <div class="content-text">
+          <h1>Stonehenge was an ancient time-keeping system, archaeologist says</h1>
+        <p> Astronomical alignments were built into the design and orientation of Stonehenge -- the imposing monument that dominates a flat plain in southwest England.</p>
+        </div>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  </script>
+  
+
+</body>
+</html>
