@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./2/homepage.css">
-  <link rel="stylesheet" href="./2/footer.css">
+  <link rel="stylesheet" href="./homepage.css">
+  <link rel="stylesheet" href="./footer.css">
   <script src="https://kit.fontawesome.com/f8c483cce4.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body> 
     <div class="cointainer">
@@ -49,13 +52,59 @@
         </div>
         </div>
         <div class="picture-introduction">
-          <div id="center-intro">
+          <div class="image-cont">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220113022056-05-new-maldives-resorts-2022.jpg" alt="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220113022056-05-new-maldives-resorts-2022.jpg">
+                  <div class="content-text">
+                    <h1>7 stunning new Maldives resorts to visit in 2022</h1>
+                  <p> It's the definitive escape for celebrities, honeymooners and families, all intent on kicking back in a picture-perfect paradise.
+                    Sitting serenely in the warm azure waters of the Indian Ocean, the Maldives guarantees the whitest of white sand beaches, pods of dolphins, dreamy sunsets and an unforgettable underwater world.</p>
+                  </div>
+                  </div>
+                <div class="swiper-slide">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190125171625-banana-island-15.jpg" alt="Banana Island: A slice of paradise off Doha coast">
+                  <div class="content-text">
+                    <h1>Banana Island: A slice of paradise off Doha coast</h1>
+                  <p> Overwater villas, golden sands and beautiful turquoise water don't necessarily come to mind when envisioning a vacation in Doha.</p>
+                  </div>
+                  </div>
+                <div class="swiper-slide">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F191212182124-04-singapore-buildings.jpg" alt="Travel to Singapore during Covid-19: What you need to know before you go">
+                  <div class="content-text">
+                    <h1>Travel to Singapore during Covid-19: What you need to know before you go</h1>
+                  <p> The quintessential modern Asian city, Singapore's glittering skyscrapers and waterside setting make it easy to love. Throw in some of the world's best street food, served in its ubiquitous hawker centers, and the lush rainforest of Bukit Timah Nature Reserve, and the city-state has more than enough to satisfy fascinated tourists.</p>
+                  </div>
+                  </div>
+                <div class="swiper-slide">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1100,c_fill,g_auto,h_619,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220425222534-tokyo-stock.jpg" alt="As international travel picks up, several popular destinations remain off limits to tourists">
+                  <div class="content-text">
+                    <h1>As international travel picks up, several popular destinations remain off limits to tourists</h1>
+                  <p> Over the recent Easter break, social media feeds were filled with photos of happy travelers, many taking their first overseas trips since the start of the pandemic.</p>
+                  </div>
+                  </div>
+                <div class="swiper-slide">
+                  <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_1349,c_fill,g_auto,h_759,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220303081037-stonehenge-file-restricted.jpg" alt="Stonehenge was an ancient time-keeping system, archaeologist says">
+                  <div class="content-text">
+                    <h1>Stonehenge was an ancient time-keeping system, archaeologist says</h1>
+                  <p> Astronomical alignments were built into the design and orientation of Stonehenge -- the imposing monument that dominates a flat plain in southwest England.</p>
+                  </div>
+                  </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <!-- <div id="center-intro" class="swiper-slide">
             <h1>Start something that matters</h1>
               <p>Stop wasting valuable time with projects that just isn't you.</p>
             <div class="button">
               <a href="">Learn more and start today</a>
             </div> 
-          </div>
+          </div> -->
         </div>
         <div class="about">
           <div class="about-tittle">
@@ -258,8 +307,8 @@
         </div>
       </div>
       </div>
-
-      <div class="w3-container">
+      
+      <div class="w3-container" style="margin: 0px 15px;" >
         <div class="w3-row">
             <div class="w3-col">
                 <h3>Our Skills.</h3>
@@ -437,5 +486,23 @@
   </div>
 </div>
   <script src="./homepage.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+  </script>
 </body>
 </html>

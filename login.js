@@ -31,6 +31,7 @@ function login() {
     warning.style.display = "block";
     strong.innerHTML="Success!";
     password.parentElement.style.border = "none"; 
+    window.location.href="./homepage.html";
   }
 }}
 
